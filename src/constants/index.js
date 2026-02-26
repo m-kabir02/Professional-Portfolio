@@ -353,13 +353,13 @@ const WORK_LOCATION = {
   ],
 };
 
-// const ABOUT_LOCATION = {
-//   id: 2,
-//   type: "about",
-//   name: "About me",
-//   icon: "/icons/info.svg",
-//   kind: "folder",
-//   children: [
+const ABOUT_LOCATION = {
+  id: 2,
+  type: "about",
+  name: "About me",
+  icon: "/icons/info.svg",
+  kind: "folder",
+  children: [
 //     {
 //       id: 1,
 //       name: "me.png",
@@ -367,7 +367,7 @@ const WORK_LOCATION = {
 //       kind: "file",
 //       fileType: "img",
 //       position: "top-10 left-5",
-//       imageUrl: "/images/", //put image on me here
+//       imageUrl: "/images/my-image.jpeg",
 //     },
 //     {
 //       id: 2,
@@ -376,7 +376,7 @@ const WORK_LOCATION = {
 //       kind: "file",
 //       fileType: "img",
 //       position: "top-28 right-72",
-//       imageUrl: "/images/adrian-2.jpg",
+//       imageUrl: "/images/my-image.jpeg",
 //     },
 //     {
 //       id: 3,
@@ -385,26 +385,26 @@ const WORK_LOCATION = {
 //       kind: "file",
 //       fileType: "img",
 //       position: "top-52 left-80",
-//       imageUrl: "/images/adrian-3.jpeg",
+//       imageUrl: "/images/my-image.jpeg",
 //     },
-//     {
-//       id: 4,
-//       name: "about-me.txt",
-//       icon: "/images/txt.png",
-//       kind: "file",
-//       fileType: "txt",
-//       position: "top-60 left-5",
-//       subtitle: "Meet the Developer Behind the Code",
-//       image: "/images/adrian.jpg",
-//       description: [
-//         "Hey! I’m Mosammad Kabir 👋, but I go by Sadiya and I'm an aspiring Software Engineer who enjoys building code for good causes.",
-//         "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-//         "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-//         "Outside of dev work, you'll find me learning something new, whether it's a new language or musical instrument, while sipping matcha 🍵",
-//       ],
-//     },
-//   ],
-// };
+    {
+      id: 4,
+      name: "about-me.txt",
+      icon: "/images/txt.png",
+      kind: "file",
+      fileType: "txt",
+      position: "top-60 left-5",
+      subtitle: "Meet the Developer Behind the Code",
+      image: "/images/adrian.jpg",
+      description: [
+        "Hey! I’m Mosammad Kabir 👋, but I go by Sadiya and I'm an aspiring Software Engineer who enjoys building code for good causes.",
+        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
+        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
+        "Outside of dev work, you'll find me learning something new, whether it's a new language or musical instrument, while sipping matcha 🍵",
+      ],
+    },
+  ],
+};
 
 const RESUME_LOCATION = {
   id: 3,

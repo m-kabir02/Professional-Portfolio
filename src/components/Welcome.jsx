@@ -76,7 +76,7 @@ const Welcome = () => {
         <p ref={subtitleRef}>
             {renderText(
                 "Hey, I'm Mosammad! Welcome to my",
-                'text-3xl font-georama',
+                'text-xl md:text-2xl lg:text-3xl whitespace-nowrap',
                 100)}
         </p>
         <h1 ref={titleRef} className='mt-7 whitespace-nowrap' >
