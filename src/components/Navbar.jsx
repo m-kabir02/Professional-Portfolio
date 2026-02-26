@@ -2,11 +2,10 @@ import React from 'react'
 import dayjs from 'dayjs';
 import { navLinks, navIcons } from '../constants';
 
-
 const Navbar = () => {
     return <nav>
         <div>
-            <img src="images/logo.svg" alt="logo" />
+            <img src="./images/logo.svg" alt="logo" />
             <p className="font-bold">Mosammad's Portfolio</p>
 
             <ul>

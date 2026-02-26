@@ -19,19 +19,19 @@ const navLinks = [
 const navIcons = [
   {
     id: 1,
-    img: "/icons/wifi.svg",
+    img: "/Professional-Portfolio/icons/wifi.svg",
   },
   {
     id: 2,
-    img: "/icons/search.svg",
+    img: "/Professional-Portfolio/icons/search.svg",
   },
   {
     id: 3,
-    img: "/icons/user.svg",
+    img: "/Professional-Portfolio/icons/user.svg",
   },
   {
     id: 4,
-    img: "/icons/mode.svg",
+    img: "/Professional-Portfolio/icons/mode.svg",
   },
 ];
 
@@ -77,9 +77,9 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "Feb 26, 2026",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+      "The Ultimate Beginner's Guide to Starting A HomeLab",
     image: "/images/blog1.png",
     link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
   },
