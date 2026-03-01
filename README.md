@@ -1,15 +1,16 @@
 # Mosammad's Professional Portfolio
 
-A modern, responsive portfolio built with **React** and **Vite**, designed to showcase my technical skills, projects, and professional journey.
+A high-performance, OS-inspired professional portfolio built with **React**, **Vite**, and **Tailwind CSS**. This project is a simulated desktop environment designed to showcase technical depth through a window-based UI and modular architecture.
 
 ## 🚀 Overview
 
-This project serves as a central hub for my work. It features a clean, user-centric design with a focus on performance and accessibility. The site is built using a component-based architecture to ensure scalability and easy maintenance.
+This portfolio features a sophisticated windowing system and a dock-based navigation, mirroring a native desktop experience. It prioritizes clean code, alias-driven imports for scalability, and a centralized state for managing window interactions.
 
 ### Key Features
-* **Responsive Design:** Fully optimized for mobile, tablet, and desktop views.
+* **Responsive Dock:** A dynamic, interactive dock navigation for seamless app switching.
 * **Dynamic Navigation:** Custom-built Navbar with seamless transitions.
-* **Project Showcase:** Interactive display of my latest web development work.
+* **Window Management System:** Custom-built logic for handling draggable, togglable, and layered project windows.
+* **Project Showcase:** Interactive display of my latest work.
 * **Optimized Performance:** Built with Vite for lightning-fast Hot Module Replacement (HMR) and optimized production builds.
 
 ## 🛠️ Tech Stack
@@ -23,12 +24,14 @@ This project serves as a central hub for my work. It features a clean, user-cent
 
 ```text
 ├── src/
-│   ├── assets/         # Images, icons, and static files
-│   ├── components/     # Reusable UI components (Navbar, Hero, etc.)
-│   ├── constants/      # Configuration and static data (navLinks, navIcons)
-│   └── App.jsx         # Main application entry point
-├── public/             # Static assets
-└── tailwind.config.js  # Styling configuration
+│   ├── components/     # UI Elements (Dock, Navbar, WindowControls)
+│   ├── hoc/            # Higher-Order Components (WindowWrapper)
+│   ├── store/          # Global state logic (window/task management)
+│   ├── constants/      # Static data and configuration
+│   ├── assets/         # Optimized images and icons
+│   └── App.jsx         # Root application logic
+├── package.json        # Subpath import definitions
+└── vite.config.js      # Alias & Build configuration
 ```
 
 ## 🛠️ Installation & Local Setup
