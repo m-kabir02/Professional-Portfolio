@@ -1,7 +1,8 @@
 import React from 'react'
-import WindowWrapper from '#/hoc/WindowWrapper';
+import WindowWrapper from '#hoc/WindowWrapper';
 import { Check, Flag } from "lucide-react";
-import { WindowControls } from '#/components';
+import { WindowControls } from '#components/index';
+import { techStack } from '#constants/index';
 
 const Terminal = () => {
     return (
@@ -30,10 +31,10 @@ const Terminal = () => {
                                 {item}
                                 {i < items.length - 1 ? "." : ""}
                             </li>
-                         ))};
+                         ))}
                         </ul>
                     </li>
-                    ))};
+                    ))}
                 </ul>
 
                 <div className="footnote">

@@ -100,15 +100,15 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js"],
+    items: ["Node.js", "Express", "Rest APIs"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "Firebase"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub"],
+    items: ["Git", "GitHub", "Vite", "Vercel"],
   },
 ];
 
