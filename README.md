@@ -2,6 +2,8 @@
 
 A high-performance, OS-inspired professional portfolio built with **React**, **Vite**, and **Tailwind CSS**. This project is a simulated desktop environment designed to showcase technical depth through a window-based UI and modular architecture.
 
+<img width="1433" height="785" alt="Screenshot 2026-03-13 at 3 45 34 AM" src="https://github.com/user-attachments/assets/eab4a832-5df5-422a-a72a-dbe3e20ef609" />
+
 ## 🚀 Overview
 
 This portfolio features a sophisticated windowing system and a dock-based navigation, mirroring a native desktop experience. It prioritizes clean code, alias-driven imports for scalability, and a centralized state for managing window interactions.
