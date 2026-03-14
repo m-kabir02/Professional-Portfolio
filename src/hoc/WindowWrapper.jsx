@@ -34,8 +34,8 @@ const WindowWrapper = (Component, windowKey) => {
 
             return () => {
                 instance.kill();
-            }, []
-        });
+            };
+        }, []);
 
 
         useLayoutEffect(() => {
@@ -48,8 +48,13 @@ const WindowWrapper = (Component, windowKey) => {
             <section
             id={windowKey}
             ref={ref}
-            style={{ zIndex }}
-            className='absolute'>
+                style={{ 
+                    zIndex,
+                    top: '100px', 
+                    left: '200px',
+
+            }}
+            className='absolute shadow-2xl rounded-lg overflow-hidden'>
             <Component {...props} />
         </section>
     );
