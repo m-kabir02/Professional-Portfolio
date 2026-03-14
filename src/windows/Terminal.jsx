@@ -27,7 +27,7 @@ const Terminal = () => {
       <div ref={terminalRef}>
 
             <div id="window-header" className="relative flex items-center justify-center py-1">
-            <div className="absolute left-3">
+            <div className="absolute left-3 z-10">
                 <WindowControls target="terminal" />
             </div>
             <h2 className="terminal-line font-semboldibold">Tech Stack</h2>
@@ -35,7 +35,7 @@ const Terminal = () => {
             
             <div className="techstack font-mono bg-black/90 text-green-400 p-4 rounded-b-lg">
                 <p className='terminal-line'>
-                    <span className="font-bold">@Mosammad % </span>
+                    <span className="font-bold">@Mosammad ~ % </span>
                     show tech stack
                 </p>
                 <div className="label flex terminal-line">
