@@ -325,8 +325,8 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "./images/Mosammad2.jpg",
       description: [
-        "Hey! I’m Mosammad SadiyaKabir 👋 and I'm an aspiring Software Engineer who enjoys building code for good causes.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
+        "Hey! I’m Mosammad Sadiya Kabir 👋 and I'm an aspiring Software Engineer who enjoys building code for good causes.",
+        "I specialize in JavaScript, Java, and React and I love making things feel smooth, fast, and just a little bit delightful.",
         "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
         "Outside of dev work, you'll find me learning something new, whether it's a new language or musical instrument, while sipping matcha 🍵",
       ],
