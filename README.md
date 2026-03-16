@@ -3,8 +3,8 @@
 A high-performance, **macOS-inspired** professional portfolio built with **React 18**, **Vite**, and **Tailwind CSS**. This project is a simulated desktop environment designed to showcase technical depth through a window-based UI and modular architecture.
 
 [**Explore the Live Demo →**](https://m-kabir02.github.io/Professional-Portfolio)
+![Image](https://github.com/user-attachments/assets/b4681791-cd99-46b0-acbc-70f711cf6990)
 
----
 
 ## ✨ System Features
 
@@ -14,7 +14,7 @@ A high-performance, **macOS-inspired** professional portfolio built with **React
 * **HOC Architecture:** Utilizes Higher-Order Components (`WindowWrapper`) to inject desktop functionality into modular project views.
 * **Glassmorphism UI:** Heavily styled with Tailwind CSS to achieve the sleek, translucent "Frosted Glass" aesthetic.
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -24,7 +24,7 @@ A high-performance, **macOS-inspired** professional portfolio built with **React
 | **State** | Centralized Global Store (Context) |
 | **Deployment** | GitHub Pages |
 
----
+
 
 ## 📂 Project Structure
 
