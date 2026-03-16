@@ -77,9 +77,9 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Mar 14, 2026",
+    date: "Mar 16, 2026",
     title:
-      "The Ultimate Beginner's Guide to Starting A HomeLab",
+      "Coming Soon",
     // image: "./images/blog1.png",
     link: "",
   },
