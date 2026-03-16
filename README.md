@@ -1,26 +1,30 @@
-# Mosammad's Professional Portfolio
+# 💻 Mosammad's macOS Portfolio
 
-A high-performance, OS-inspired professional portfolio built with **React**, **Vite**, and **Tailwind CSS**. This project is a simulated desktop environment designed to showcase technical depth through a window-based UI and modular architecture.
+A high-performance, **macOS-inspired** professional portfolio built with **React 18**, **Vite**, and **Tailwind CSS**. This project is a simulated desktop environment designed to showcase technical depth through a window-based UI and modular architecture.
 
-<img width="1433" height="785" alt="Screenshot 2026-03-13 at 3 45 34 AM" src="https://github.com/user-attachments/assets/eab4a832-5df5-422a-a72a-dbe3e20ef609" />
+[**Explore the Live Demo →**](https://m-kabir02.github.io/Professional-Portfolio)
 
-## 🚀 Overview
+---
 
-This portfolio features a sophisticated windowing system and a dock-based navigation, mirroring a native desktop experience. It prioritizes clean code, alias-driven imports for scalability, and a centralized state for managing window interactions.
+## ✨ System Features
 
-### Key Features
-* **Responsive Dock:** A dynamic, interactive dock navigation for seamless app switching.
-* **Dynamic Navigation:** Custom-built Navbar with seamless transitions.
-* **Window Management System:** Custom-built logic for handling draggable, togglable, and layered project windows.
-* **Project Showcase:** Interactive display of my latest work.
-* **Optimized Performance:** Built with Vite for lightning-fast Hot Module Replacement (HMR) and optimized production builds.
+* **Window Management Engine:** Custom logic for draggable, resizable, and layered windows with active-state z-index management.
+* **Interactive Dock:** A dynamic, physics-inspired dock for seamless application switching and status tracking.
+* **Menu Bar & System Tray:** A functional top-level navigation bar mirroring the macOS menu system.
+* **HOC Architecture:** Utilizes Higher-Order Components (`WindowWrapper`) to inject desktop functionality into modular project views.
+* **Glassmorphism UI:** Heavily styled with Tailwind CSS to achieve the sleek, translucent "Frosted Glass" aesthetic.
+
+---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React.js
-* **Styling:** Tailwind CSS (or CSS3)
-* **Build Tool:** Vite
-* **Deployment:** [Live Site](https://m-kabir02.github.io/Professional-Portfolio)
+| **Frontend** | React.js (Hooks, Context API) |
+| **Styling** | Tailwind CSS & Framer Motion (Animations) |
+| **Build Tool** | Vite |
+| **State** | Centralized Global Store (Context) |
+| **Deployment** | GitHub Pages |
+
+---
 
 ## 📂 Project Structure
 
@@ -45,9 +49,9 @@ The output will be located in the dist/ folder, which is ready for deployment.
 
 
 ## 📬 Contact
-Let's connect!
+If you'd like to collaborate or chat about the architecture behind this project, feel free to reach out:
 * [GitHub](https://github.com/m-kabir02)
 * [LinkedIn](https://www.linkedin.com/in/sadiyak)
 * [Email: sxdiyak@gmail.com](mailto:sxdiyak@gmail.com)
 
-Created with ❤️ by Mosammad
+Created with ❤️ by Mosammad. If you like this project, feel free to give it a ⭐!
